@@ -1,0 +1,40 @@
+.page-header {
+    color: #477687;
+    margin-left: 15px;
+    border-bottom: 1px solid #345995;
+}
+
+.logo {
+    height: 36px;
+}
+
+body {
+    background: #F7F7F7;
+    color: #345995;
+}
+
+.error-message {
+    color: red;
+}
+
+.btn-primary {
+    background: #BB342F;
+}
+
+.btn-default {
+    color: #F7F7F7;
+    background: #345995;
+    height: 38px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media(max-width: 785px) {
+    .page-header .btn-default {
+        float: none !important;
+        display: block;
+    }
+}

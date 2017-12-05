@@ -1,0 +1,29 @@
+.product {
+    background: #EFEBEA;
+    border-radius: 4px;
+    padding: 10px;
+    height: 215px;
+    margin: 5px;
+}
+
+.product .btn {
+    height: 35px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.product-details {
+    overflow-y: auto;
+    height: 150px;
+}
+
+.value {
+    color: #023C40;
+    padding-right: 15px;
+}
+
+.col-sm-4,
+.col-md-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
